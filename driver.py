@@ -82,7 +82,11 @@ user.send_keys(username)
 password = browser.find_element_by_name('password')
 password.send_keys(pwd)
 password.send_keys(Keys.RETURN)
-time.sleep(30)
+time.sleep(10)
+
+print('* Redirecting to the course main page ... *')
+browser.get(url)
+time.sleep(10)
 
 try:
     logged_in_name = browser.find_element_by_id('navigationUsername')

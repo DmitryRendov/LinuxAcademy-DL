@@ -15,6 +15,14 @@
 - Get cookies.txt - https://bit.ly/GoogleChrome-GetCookiesTxt
 - FFMpeg - https://www.ffmpeg.org/download.html
 
+### Install pre-requiesits
+
+In case of CentOS 8 you should follow the steps:
+* Install pip requirements:
+pip3 install  -r requirements.txt
+* Install Selenium using the script
+* Install ChromeDriver using the script
+
 ### Usage
 
 > Clone the repo
